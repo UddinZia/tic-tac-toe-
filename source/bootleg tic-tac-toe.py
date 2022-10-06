@@ -102,7 +102,7 @@ class TicTacToe():
     def win_sequence(self, win_dialogue: str, tied: bool):
         win_window = tk.Toplevel()
         win_window.geometry("200x225")
-        win_window.title("deez nutz!")
+        win_window.title("tic-tac-toe")
         win_text = tk.Label(win_window, text=win_dialogue, justify=tk.CENTER)
         if tied:
             win_image_file = Image.open("tie_image.png")
